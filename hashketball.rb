@@ -64,7 +64,7 @@ def game_hash
     team_name: "Charlotte Hornets",
     colors: ["Turquoise", "Purple"],
     players: {
-     player_name 
+     player_name: {
         "Jeff Adrien" => {
           number: 4,
           shoe: 18,
@@ -74,6 +74,7 @@ def game_hash
           steals: 2,
           blocks: 7,
           slam_dunks: 2
+        }
         },
       player_name: "Bismack Biyombo" => {
           number: 0,
